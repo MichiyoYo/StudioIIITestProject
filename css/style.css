@@ -1,0 +1,453 @@
+body {
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+em {
+  font-style: italic;
+}
+
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #d5b05f;
+  padding: 0;
+}
+
+.header{
+  margin: 20px 0 20px 0;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 95%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.the-cutting-edge {
+  height: 38px;
+  color: #434341;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40px;
+  vertical-align: middle;
+}
+
+.brand {
+  width: 280px;
+  height: 63px;
+  color: #000000;
+  display: inline;
+}
+
+.anacapa {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.dental-art-institute {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.schedule-a-consultation {
+  width: 148px;
+  height: 37px;
+  color: #d8bf5b;
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.phone {
+  width: 188px;
+  height: 22px;
+  color: #434341;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.navbar {
+  width: auto;
+  background-color: #d8bf5b;
+  margin-bottom: 1px;
+}
+
+.navbar-default {
+    font-size: 16px;
+    line-height: 76px;
+}
+
+ul.navbar-nav li a {
+  font-weight: 300;
+  color: #fff;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+}
+
+#box-container {
+  background:transparent url('../images/main-slide.png') no-repeat center center;
+  height: 763px;
+  margin-top: 2px;
+  position: relative;
+}
+
+.text-box {
+  position: absolute;
+  top: 380px;
+  width: 55%;
+  left: 0;
+  background-color: #ffffff;
+  opacity: 0.82;
+  padding: 2% 2% 2% 8%;
+  line-height: 28px;
+}
+
+.text-box h3{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.text-box strong {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.social-top {
+  position: absolute;
+  right: 60px;
+  top: 20px;
+}
+
+.social [class*="fa fa-"] {
+  background-color: #d5b05f;
+  border-radius: 40px;
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  margin: auto 6px;
+  width: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fa-facebook:hover,
+.fa-youtube:hover {
+    background-color: #434341;
+    text-decoration: none;
+}
+
+.gold-divider {
+  margin: 2px 0 2px 0;
+  height: 24px;
+  background-color: #ffffff;
+  background-image: linear-gradient(to right, #ffffff 0%, #d8bf5b 50%, #ffffff 100%);
+}
+
+#intro{
+  background: transparent url(../images/intro-background.png) no-repeat;
+  background-position: top;
+  height: 450px;
+}
+
+#intro h2 {
+  font-size: 33px;
+  font-weight: 300;
+  line-height: 48px;
+  margin: 38px 0 60px 0;
+  background-color: #fff;
+}
+
+#intro p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+#intro em {
+  font-weight: 500;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.features-item {
+    margin-bottom: 50px;
+}
+
+.features-item h3 {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.features-item p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.features-box {
+  border-bottom: solid #d8bf5b 1px;
+}
+
+#description {
+    margin: 5% 0 5% 0
+}
+
+#description-box {
+  position: relative;
+}
+
+#description-lamp {
+  position: absolute;
+  right: 0;
+  top: -113px;
+  float: right;
+  z-index: -10000;
+}
+
+#description-text h2 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+#description-text p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+#description-lamp img {
+  width:130%;
+}
+
+.btn {
+  background-color: #d8bf5b !important;
+  border: 1px solid #d8bf5b !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  margin: 40px 0 40px 0;
+}
+
+.btn:hover {
+  background-color: #fff !important;
+  border: 1px solid #d8bf5b !important;
+  border-radius: 0 !important;
+  color: #000 !important;
+}
+
+#doc-box {
+  position: relative;
+  background:transparent url('../images/dr-jivraj-portrait.png') no-repeat center center;
+  height: 996px;
+}
+
+#doc-block {
+  position: absolute;
+  top:20%;
+}
+
+#doc-block h3 {
+ font-size: 30px;
+ font-weight: 500;
+ line-height: 40px;
+ text-transform: uppercase;
+}
+
+#doc-block h2 {
+  font-size: 43px;
+  font-weight: 500;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+
+#doc-block hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #000;
+  padding: 0;
+}
+
+#doc-block p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+#second-features .container {
+  background: transparent url(../images/FeaturesBCK1.png) no-repeat;
+  background-size: 139%;
+  background-position-x: -296px;
+  padding: 5% 0 5% 0;
+}
+
+#second-features .row {
+  margin-bottom: 60px;
+}
+
+#second-features h3 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 24px;
+  margin:3% 0;
+}
+
+#second-features p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+#facility-stuff {
+  background:transparent url('../images/facility-bck-merge.png') no-repeat center center;
+  height: 837px;
+  position: relative;
+}
+
+#facility-box {
+  position: absolute;
+  top: 10%;
+}
+
+#facility-box h3{
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#facility-box p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+#facility-block {
+  margin-top:4%;
+}
+
+#consultation-block {
+  margin-top: 50px;
+}
+
+#consultation-block .row {
+  margin-bottom: 40px;
+}
+
+#consultation #text {
+  font-weight: 300;
+  line-height: 24px;
+}
+
+#consultation #text h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+
+.side-lines {
+  z-index: -1000;
+  top: 85px;
+  position: relative;
+}
+
+#last-hr {
+  margin:2px 0;
+}
+
+#consultation #text p {
+  font-size: 14px;
+}
+
+#consultation #schedule {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+#phone {
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+footer {
+  height: 406px;
+  background-color: #d8bf5b;
+}
+
+footer nav {
+  margin-top: 40px;
+}
+
+#footer-text-container {
+  border-top: 1px solid #fff;
+  padding-top: 5%;
+  color:#fff;
+}
+
+#footer-text-container h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+#footer-text-container address {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+#footer-text-container strong {
+  font-weight: 500;
+}
+
+.social-bottom{
+  margin-bottom: 20px;
+}
+
+.social-bottom .social a {
+  background-color: #fff;
+  color: #d5b05f;
+}
+
+.social-bottom .social a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.copyright{
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+}
